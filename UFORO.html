@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Letters to Uforo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      color: #222;
+    }
+    header {
+      background-color: #0d1b2a;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    .hero-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .letter {
+      background-color: #fff;
+      border-left: 6px solid #1b263b;
+      margin-bottom: 20px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .letter h3 {
+      margin-top: 0;
+      color: #0d1b2a;
+    }
+    .reveal {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #e0e1dd;
+    }
+    .reveal h2 {
+      margin-bottom: 10px;
+    }
+    .reveal-code {
+      background: #fff;
+      border: 2px dashed #1b263b;
+      padding: 20px;
+      font-size: 20px;
+      letter-spacing: 2px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #0d1b2a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>To the Man Building Dreams</h1>
+  <p>Letters to Uforo</p>
+</header>
+
+<img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80" alt="Real Estate Hero Image" class="hero-img">
+<section>
+  <div class="letter reveal-letter">
+    <h3>Open When You Feel Tired</h3>
+    <div class="letter-message">
+      You were never called to be ordinary. The world may not see how hard you grind, but greatness is built in the unseen hours. Rest—but don’t quit. You’re almost there.
+    </div>
+  </div>
+  </div>
+
+  <div class="letter reveal-letter">
+    <h3>Open When You Make It</h3>
+    <div class="letter-message">
+      I always knew you would. This moment was never just a dream—it was your destiny. Own it. Lead with grace. Build with wisdom. I’m so proud of you already.
+    </div>
+  </div>
+<div class="letter reveal-letter">
+    <h3>Open When You Need to Remember Who You Are</h3>
+    <div class="letter-message">
+      You are Uforo. A man of vision. A man of class. A man whose name will one day be a brand. Keep building. Keep believing.
+    </div>
+  </div>
+
+  <div class="letter">
+    <h3>Open Now — Because It's Your Birthday</h3>
+    <p>Thank you for being a light. Thank you for your friendship. I hope this little website reminds you how amazing you truly are. Happy birthday, Uforo!</p>
+  </div>
+</section>
+<!-- ...existing code... -->
+<style>
+  /* ...existing styles... */
+  .letter-message {
+    display: none;
+     margin-top: 12px;
+    color: #222;
+    transition: all 0.4s;
+  }
+  .letter.open .letter-message {
+    display: block;
+    animation: fadeIn 0.6s;
+  }
+  .reveal-letter {
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+  }
+  .reveal-letter:hover {
+    box-shadow: 0 4px 16px rgba(27,38,59,0.12);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px);}
+    to { opacity: 1; transform: translateY(0);}
+  }
+</style>
+<script>
+  document.querySelectorAll('.reveal-letter').forEach(function(letter) {
+    letter.addEventListener('click', function() {
+        letter.classList.toggle('open');
+    });
+  });
+</script>
+<!-- ...existing code... -->
+  <!-- <div class="letter reveal-letter">
+    <h3>Open When You Doubt Yourself</h3>
+    <div class="letter-message">
+      Every great empire started with a blueprint and belief. You’ve got both. You’re not just a man selling homes—you’re a man making people feel at home. That’s purpose.
+    </div>
+  </div>
+
+  <div class="letter reveal-letter">
+    <h3>Open When You Need to Remember Who You Are</h3>
+    <div class="letter-message">
+      You are Uforo. A man of vision. A man of class. A man whose name will one day be a brand. Keep building. Keep believing.
+    </div> -->
+<!-- <section>
+  <div class="letter">
+    <h3>Open When You Feel Tired</h3>
+    <p>You were never called to be ordinary. The world may not see how hard you grind, but greatness is built in the unseen hours. Rest—but don’t quit. You’re almost there.</p>
+  </div>
+
+  <div class="letter">
+    <h3>Open When You Doubt Yourself</h3>
+    <p>Every great empire started with a blueprint and belief. You’ve got both. You’re not just a man selling homes—you’re a man making people feel at home. That’s purpose.</p>
+  </div>
+
+  <div class="letter">
+    <h3>Open When You Need to Remember Who You Are</h3>
+    <p>You are Uforo. A man of vision. A man of class. A man whose name will one day be a brand. Keep building. Keep believing.</p>
+  </div>
+
+  <div class="letter">
+    <h3>Open When You Make It</h3>
+    <p>I always knew you would. This moment was never just a dream—it was your destiny. Own it. Lead with grace. Build with wisdom. I’m so proud of you already.</p>
+  </div>
+
+  <div class="letter">
+    <h3>Open Now — Because It's Your Birthday</h3>
+    <p>Thank you for being a light. Thank you for your friendship. I hope this little website reminds you how amazing you truly are. Happy birthday, Uforo!</p>
+  </div>
+</section> -->
+<div style="text-align:center; margin: 40px 0;">
+  <button id="revealBtn" style="padding: 12px 28px; font-size: 18px; background: #1b263b; color: #fff; border: none; border-radius: 6px; cursor: pointer;">
+    Reveal Gift
+  </button>
+</div>
+<style>
+  /* ...existing styles... */
+  .reveal {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e0e1dd;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease;
+  }
+  .reveal.show {
+    opacity: 1;
+    visibility: visible;
+  }
+</style>
+<div class="reveal">
+  <h2>Your Gift</h2>
+  <p>I don’t have much, but I have love and gratitude.</p>
+  <div class="reveal-code">
+    Ask Mercy for your birthday gift on whatsapp
+  </div>
+  <p>Use *555*PIN# to load it. Enjoy!</p>
+</div>
+<script>
+  document.getElementById('revealBtn').onclick = function() {
+    var revealDiv = document.querySelector('.reveal');
+    revealDiv.classList.add('show');
+    this.style.display = 'none';
+  };
+</script>
+
+<div class="reveal">
+  <h2>Your Gift</h2>
+  <p>I don’t have much, but I have love and gratitude.</p>
+  <div class="reveal-code">
+    Ask Mercy for your birthday gift on whatsapp
+  </div>
+  <p>Use *555*PIN# to load it. Enjoy!</p>
+</div>
+<!-- Confetti library from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+  document.getElementById('revealBtn').onclick = function() {
+    var revealDiv = document.querySelector('.reveal');
+    revealDiv.classList.add('show');
+    this.style.display = 'none';
+    // Confetti burst
+    confetti({
+      particleCount: 120,
+      spread: 90,
+      origin: { y: 0.6 }
+    });
+  };
+</script>
+<!-- ...existing code... -->
+<!-- <div class="reveal" style="display:none;">
+  <h2>Your Gift</h2>
+  <p>I don’t have much, but I have love and gratitude.</p>
+  <div class="reveal-code">
+    Ask Mercy for your birthday gift on whatsapp
+  </div>
+  <p>Use *555*PIN# to load it. Enjoy!</p>
+</div>
+<script>
+  document.getElementById('revealBtn').onclick = function() {
+    document.querySelector('.reveal').style.display = 'block';
+    this.style.display = 'none';
+  };
+</script> -->
+
+<!-- <div class="reveal">
+  <h2>Your Gift</h2>
+  <p>I don’t have much, but I have love and gratitude.</p>
+  <div class="reveal-code">
+    Ask Mercy for your birthday gift on whatsapp
+  </div>
+  <p>Use *555*PIN# to load it. Enjoy!</p>
+</div> -->
+
+<footer>
+  Made with love by your friend, Mercy
+</footer>
+
+</body>
+</html>
